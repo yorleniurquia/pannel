@@ -1,0 +1,120 @@
+body{
+    width: 80%;
+    font-size: 14px;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+nav{
+    background: whitesmoke;
+    width: 100%;
+}
+
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+nav #menuprincipal{
+    background: black;
+    font-size: 14px;
+    height: 37px;
+}
+
+nav #menuprincipal ul li{
+    float: left;
+    list-style: none;
+}
+
+nav #menuprincipal ul li a{
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+}
+
+nav #menuprincipal ul li a:hover{
+    font-weight: bold;
+    background: #4c6ff3;
+    transition: all 1s;
+}
+ aside{
+    float: left;
+    width: 80%;
+    margin-top: 20px;
+ }
+
+ aside .panel{
+    margin: 0px;
+    background: #edecec;
+    border: solid 1px #edecec;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 12px;
+    width: 100%;
+ }
+
+ aside .contenedor{
+    padding: 10px;
+ }
+  
+ aside .panel .contenedor h1{
+    background: #0730c4;
+    color: #ffff;
+    font-size: 14px;
+    margin: 10px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+ }
+
+ aside .panel .contenedor{
+    line-height:150%;
+ }
+
+ section{
+    float: right;
+    width: 73%;
+    margin: 0px;
+    padding: 0px;
+ }
+  section article{
+    margin: 10px;
+    padding:10px;
+  }
+
+  section article .articulo{
+    background: #ffff;
+    border: solid 1px #649968;
+    font-size: 14px;
+    width: 100%;
+    overflow: hidden;
+    text-align: justify;
+    margin-top: 10px;
+    padding: 5px;
+  }
+
+  section article .articulo img{
+      float: left;
+      margin-right: 20px;
+  }
+
+  section article .articulo h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    color:#1d24b3;
+  }
+   footer{
+    display: block;
+   background: rgb(236, 63, 63) ;
+   height: 40px;
+   width: 100%;
+   }
+
+   footer p{
+    color: white;
+    font-size: 18px;
+    margin: auto;
+    padding-top: 10px;
+   }
